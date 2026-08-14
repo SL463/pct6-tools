@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://raw.githubusercontent.com/sl463/pct6-tools/main/schema/v1/pct6-tune.schema.json",
+  "title": "Decoded Audiotec Fischer .pct6 tune",
+  "description": "Structure produced by pct6_extract.py when it decodes an Audiotec Fischer DSP PC-Tool 6 (.pct6) setup file. See FINDINGS.md in this repository for the container format and what each field means. v1 is additive-only: existing fields keep their meaning forever; a breaking change gets a v2 schema alongside this one, never an edit in place - so pinning to this URL is safe long-term.",
+  "type": "object",
+  "required": ["$schema", "source_file", "decoder", "container_mode", "xml_bytes", "meta", "outputs", "inputs"],
+  "additionalProperties": false,
+  "properties": {
+    "$schema": {
+      "type": "string",
+      "const": "https://raw.githubusercontent.com/sl463/pct6-tools/main/schema/v1/pct6-tune.schema.json",
+      "description": "Always this schema's own $id - lets any validator resolve the right version without being told which one to use."
+    },
+    "source_file": {
+      "type": "string",
+      "description": "Original .pct6 filename this data was decoded from."
+    },
+    "decoder": {
+      "type": "string",
+      "description": "Tool and version that produced this file, e.g. \"pct6_extract.py v1.0.0\"."
+    },
+    "container_mode": {
+      "type": "string",
+      "description": "Which of PC-Tool's five container variants matched, per the FINDINGS.md table (plain XML, plain qCompress, or qCompress XORed with the ATFV6 / ATFV6P / ATF key).",
+      "enum": [
+        "no compression",
+        "compression only (no obfuscation)",
+        "V6 obfuscation",
+        "V6 keypass obfuscation",
+        "AFPX legacy obfuscation"
+      ]
+    },
+    "xml_bytes": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Size in bytes of the decompressed XML payload."
+    },
+    "meta": {
+      "type": "object",
+      "description": "Verbatim attributes of the XML root <ATF> element. All values are strings, as stored in the XML - convert numeric-looking ones yourself. Known keys documented here; additional keys appear on other PC-Tool versions/devices and should be kept, not dropped.",
+      "additionalProperties": { "type": "string" },
+      "properties": {
+        "V": { "type": "string", "description": "PC-Tool version that saved the file, e.g. \"6.03.04\"." },
+        "D": { "type": "string", "description": "Save timestamp, DDMMYYYYHHmm." },
+        "Dev": { "type": "string", "description": "Numeric device id." },
+        "FN": { "type": "string", "description": "Original full path of the file on the machine that saved it." },
+        "INS": { "type": "string", "description": "Declared input channel count." },
+        "OUTS": { "type": "string", "description": "Declared output channel count." }
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "description": "One entry per <OC> element - every physical output the device exposes, whether or not it carries non-default settings. Filter on eq_band_count/highpass/lowpass/delay_raw/gain_db to find the ones actually in use.",
+      "items": { "$ref": "#/$defs/channel" }
+    },
+    "inputs": {
+      "type": "array",
+      "description": "One entry per <IC> element - every physical input.",
+      "items": { "$ref": "#/$defs/channel" }
+    },
+    "labels": {
+      "type": "object",
+      "description": "Optional, hand-maintained annotation layer. Nothing under here is decoded from the .pct6 file - it is inferred (from crossover ranges, delay symmetry, etc.) or supplied by whoever is editing this data file. Safe to extend, safe to omit. For the channel naming the file does carry - the Digital Routing speaker assignment, e.g. \"Front L High\" - use channel_name instead; this layer is for annotation that goes beyond it, such as the actual driver type fitted.",
+      "additionalProperties": false,
+      "properties": {
+        "description": { "type": "string" },
+        "by_output_index": {
+          "type": "object",
+          "description": "Keyed by the output's \"index\" field (as a string) from the outputs array.",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "role": { "type": "string", "description": "e.g. Tweeter, Midrange, Midbass, Subwoofer." },
+              "side": { "type": "string", "description": "e.g. L, R, or a named zone." }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "channel": {
+      "type": "object",
+      "required": [
+        "role", "index", "channel_id", "eq_bypassed", "polarity_inverted",
+        "gain_db", "gain_linear", "delay_raw", "delay_ms", "delay_cm",
+        "highpass", "lowpass", "eq_bands", "eq_band_count", "raw_attrib"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "role": {
+          "type": "string",
+          "enum": ["output", "input"],
+          "description": "Which XML element this came from: <OC> (output) or <IC> (input). The two share this shape but differ in which attributes are meaningful - see enabled/delay_group/link_group below."
+        },
+        "index": {
+          "type": "integer",
+          "description": "Output number (ON attribute) for role=output, or input number (IN attribute) for role=input. -1 if the attribute was missing."
+        },
+        "channel_id": {
+          "type": "integer",
+          "description": "Internal channel id (CN attribute). Stable identifier distinct from index; resolve it to a name via channel_name."
+        },
+        "channel_name": {
+          "type": ["string", "null"],
+          "description": "Name assigned to this channel, resolved from channel_id (CN) against PC-Tool's channel-name tables (documented in FINDINGS.md). Outputs and inputs use separate id spaces, so the same channel_id resolves differently depending on role. For an output this is the speaker type selected on the Digital Routing page - e.g. \"Front L High\", \"Front R Mid\", \"Subwoofer 1\", or \"Not assigned\". Read out of the file, not inferred (contrast the labels object). null if channel_id is outside the known list, e.g. on a newer PC-Tool build that defines more entries."
+        },
+        "enabled": {
+          "type": ["boolean", "null"],
+          "description": "Channel-enable flag (CE attribute). Only meaningful for role=output - <IC> elements carry no such flag, so this is null for inputs."
+        },
+        "eq_bypassed": {
+          "type": "boolean",
+          "description": "Whole-channel EQ bypass (EqBy attribute)."
+        },
+        "polarity_inverted": {
+          "type": "boolean",
+          "description": "CINV attribute."
+        },
+        "delay_group": {
+          "type": ["string", "null"],
+          "description": "DG attribute. Output-only; null for inputs."
+        },
+        "link_group": {
+          "type": ["string", "null"],
+          "description": "LG attribute. Output-only; null for inputs."
+        },
+        "gain_db": {
+          "type": "number",
+          "description": "Channel gain in dB, derived as 20*log10(gain_linear). -Infinity if gain_linear is 0."
+        },
+        "gain_linear": {
+          "type": "number",
+          "description": "Channel gain exactly as stored (the <Vol L=\"...\"> attribute) - a linear amplitude multiplier, 1.0 = 0 dB."
+        },
+        "delay_raw": {
+          "type": "integer",
+          "description": "Raw stored delay value (the <T ... T=\"...\"> attribute), unit unconfirmed - see delay_ms/delay_cm."
+        },
+        "delay_ms": {
+          "type": "number",
+          "description": "delay_raw interpreted as samples at 96 kHz (ACO DSPs' native rate) and converted to milliseconds. UNCONFIRMED - see FINDINGS.md 'Open questions'. If the true unit differs, this scales linearly with delay_raw so relative comparisons between channels stay valid even if the absolute unit is off."
+        },
+        "delay_cm": {
+          "type": "number",
+          "description": "Same delay_raw conversion, expressed as an equivalent path-length difference at 343 m/s. Same caveat as delay_ms."
+        },
+        "highpass": {
+          "description": "The channel's highpass crossover slot, or null if none is active (bypassed or 0 dB/oct).",
+          "oneOf": [{ "$ref": "#/$defs/filter" }, { "type": "null" }]
+        },
+        "lowpass": {
+          "description": "The channel's lowpass crossover slot, or null if none is active.",
+          "oneOf": [{ "$ref": "#/$defs/filter" }, { "type": "null" }]
+        },
+        "eq_bands": {
+          "type": "array",
+          "description": "Active parametric peaking bands only - default/untouched slots (gain 0 dB, Q 4.3) are filtered out.",
+          "items": { "$ref": "#/$defs/filter" }
+        },
+        "eq_band_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Length of eq_bands, provided for convenience."
+        },
+        "raw_attrib": {
+          "type": "object",
+          "description": "Every attribute of the source <OC>/<IC> element, verbatim and unconverted, so fields this schema doesn't yet model (e.g. Finit, MT, GD, HPi, LPi - default-filter and mode indices that don't bear on EQ/crossover/delay/gain) are preserved rather than silently dropped.",
+          "additionalProperties": { "type": "string" }
+        }
+      }
+    },
+    "filter": {
+      "type": "object",
+      "required": ["type_id", "kind", "label", "freq_hz", "gain_db", "q", "bypassed"],
+      "additionalProperties": false,
+      "description": "One <Fil> slot. A channel has up to 30: a fixed highpass+lowpass crossover pair plus up to 28 parametric peaking bands.",
+      "properties": {
+        "type_id": {
+          "type": "integer",
+          "description": "Raw T attribute. 1=unused, 9/10=Butterworth LP/HP, 11/12=Bessel LP/HP, 13/14=Tschebyscheff LP/HP, 15/16=Linkwitz-Riley LP/HP, 17=parametric peak. See FINDINGS.md."
+        },
+        "kind": {
+          "type": "string",
+          "enum": ["unused", "lowpass", "highpass", "peak", "unknown"]
+        },
+        "label": {
+          "type": "string",
+          "description": "Human-readable name for type_id, e.g. \"Lowpass Linkwitz\"."
+        },
+        "freq_hz": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Corner/center frequency in Hz."
+        },
+        "gain_db": {
+          "type": "number",
+          "description": "For kind=peak: band gain in dB. For kind=lowpass/highpass: crossover slope in dB/octave (e.g. -24 = 4th-order/24 dB per octave), not a level."
+        },
+        "q": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Q factor. Crossover slots typically read 0.7 (Butterworth-derived); peaking bands vary."
+        },
+        "bypassed": {
+          "type": "boolean",
+          "description": "Per-slot bypass (FilBy attribute) - independent of the channel-wide eq_bypassed flag."
+        }
+      }
+    }
+  }
+}

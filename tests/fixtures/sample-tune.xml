@@ -1,0 +1,950 @@
+<ATF JPT="0" D="130820261552" V="6.03.04" Dev="22" NT="" FN="sample-tune.pct6" VCO="15" VM="1" IOR="0" AV="44444444" OUTS="26" IGL="1" IGM="1" FV="1" TM="1" INS="12" ICT="1">
+ <OC DG="0" CE="1" Finit="30" MT="1" GD="0" CINV="0" ON="0" EqBy="0" LG="13" CN="1">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="30" MT="1" GD="0" CINV="0" ON="1" EqBy="0" LG="14" CN="2">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="30" MT="1" GD="0" CINV="0" ON="2" EqBy="0" LG="15" CN="13">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="30" MT="1" GD="0" CINV="0" ON="3" EqBy="0" LG="16" CN="14">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="30" MT="1" GD="0" CINV="0" ON="4" EqBy="0" LG="17" CN="9">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="30" MT="1" GD="0" CINV="0" ON="5" EqBy="0" LG="18" CN="21">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="0" MT="1" GD="0" CINV="0" ON="6" EqBy="0" LG="0" CN="39">
+  <T PM="1" P="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="0" MT="1" GD="0" CINV="0" ON="7" EqBy="0" LG="0" CN="40">
+  <T PM="1" P="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="0" MT="1" GD="0" CINV="0" ON="8" EqBy="0" LG="0" CN="41">
+  <T PM="1" P="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="0" MT="1" GD="0" CINV="0" ON="9" EqBy="0" LG="0" CN="42">
+  <T PM="1" P="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="30" MT="1" GD="0" CINV="0" ON="10" EqBy="0" LG="19" CN="25">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Vol L="1" T="15"/>
+  <T PM="2" P="0" T="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="30" MT="1" GD="0" CINV="0" ON="11" EqBy="0" LG="20" CN="26">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Vol L="1" T="15"/>
+  <T PM="2" P="0" T="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="0" MT="0" GD="0" CINV="0" ON="12" EqBy="0" LG="0" CN="0">
+  <T PM="1" P="0"/>
+ </OC>
+ <OC DG="0" CE="1" Finit="0" MT="0" GD="0" CINV="0" ON="13" EqBy="0" LG="0" CN="0">
+  <T PM="1" P="0"/>
+ </OC>
+ <OC DG="0" HPi="31" CE="1" Finit="30" LPi="30" MT="1" GD="0" CINV="0" ON="14" EqBy="0" LG="1" CN="39">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="1" Q="1" T="9"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="1" Q="1" T="10"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="0" HPi="31" CE="1" Finit="30" LPi="30" MT="0" GD="0" CINV="0" ON="15" EqBy="0" LG="10" CN="0">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="1" T="9"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="1" T="10"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="3" HPi="31" CE="1" Finit="30" LPi="30" MT="1" GD="0" CINV="0" ON="16" EqBy="0" LG="2" CN="5">
+  <Fil F="54.60" G="-0.8" I="0" FilBBR="0" FilBy="0" Q="22.053" T="17"/>
+  <Fil F="123.00" G="-16.1" I="0" FilBBR="0" FilBy="0" Q="1.222" T="17"/>
+  <Fil F="135.50" G="5.8" I="0" FilBBR="0" FilBy="0" Q="3.678" T="17"/>
+  <Fil F="317.00" G="4.9" I="0" FilBBR="0" FilBy="0" Q="7.284" T="17"/>
+  <Fil F="338.00" G="2.7" I="0" FilBBR="0" FilBy="0" Q="7.29" T="17"/>
+  <Fil F="449.00" G="-12.9" I="0" FilBBR="0" FilBy="0" Q="1.273" T="17"/>
+  <Fil F="508.00" G="3.4" I="0" FilBBR="0" FilBy="0" Q="4.784" T="17"/>
+  <Fil F="687.00" G="-8.199999999999999" I="0" FilBBR="0" FilBy="0" Q="2.186" T="17"/>
+  <Fil F="869.00" G="-2.7" I="0" FilBBR="0" FilBy="0" Q="7.372" T="17"/>
+  <Fil F="1041.00" G="6" I="0" FilBBR="0" FilBy="0" Q="1" T="17"/>
+  <Fil F="1083.00" G="-11.4" I="0" FilBBR="0" FilBy="0" Q="4.071" T="17"/>
+  <Fil F="1350.00" G="-3.4" I="0" FilBBR="0" FilBy="0" Q="6.558" T="17"/>
+  <Fil F="2847.00" G="-7.7" I="0" FilBBR="0" FilBy="0" Q="5.226" T="17"/>
+  <Fil F="6479.00" G="-6.5" I="0" FilBBR="0" FilBy="0" Q="3.785" T="17"/>
+  <Fil F="10433.00" G="-2.7" I="0" FilBBR="0" FilBy="0" Q="3" T="17"/>
+  <Fil F="7161.00" G="6" I="0" FilBBR="0" FilBy="0" Q="1" T="17"/>
+  <Fil F="7435.00" G="-11" I="0" FilBBR="0" FilBy="0" Q="3.276" T="17"/>
+  <Fil F="7914.00" G="6" I="0" FilBBR="0" FilBy="0" Q="5.821" T="17"/>
+  <Fil F="9985.00" G="-17.2" I="0" FilBBR="0" FilBy="0" Q="2.703" T="17"/>
+  <Fil F="2000.00" G="1.8" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="611.00" G="-1.3" I="0" FilBBR="0" FilBy="0" Q="2.85" T="17"/>
+  <Fil F="835.00" G="0.9" I="0" FilBBR="0" FilBy="0" Q="2.44" T="17"/>
+  <Fil F="1017.00" G="2.4" I="0" FilBBR="0" FilBy="0" Q="1.15" T="17"/>
+  <Fil F="1180.00" G="5.1" I="0" FilBBR="0" FilBy="0" Q="7.68" T="17"/>
+  <Fil F="1326.00" G="-4.1" I="0" FilBBR="0" FilBy="0" Q="3.24" T="17"/>
+  <Fil F="1848.00" G="4.9" I="0" FilBBR="0" FilBy="0" Q="9.75" T="17"/>
+  <Fil F="2185.00" G="0" I="0" FilBBR="0" FilBy="0" Q="3.01" T="17"/>
+  <Fil F="4199.00" G="5" I="0" FilBBR="0" FilBy="0" Q="5" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3301.00" G="-24" I="0" FilBBR="0" FilBy="0" Q="0.7" T="15"/>
+  <Fil F="201.00" G="-12" I="0" FilBBR="0" FilBy="0" Q="0.7" T="16"/>
+  <Vol L="0.5623413251903491" T="15"/>
+  <T PM="2" P="0" T="100"/>
+ </OC>
+ <OC DG="3" HPi="31" CE="1" Finit="30" LPi="30" MT="1" GD="0" CINV="1" ON="17" EqBy="0" LG="3" CN="3">
+  <Fil F="733.00" G="-7.8" I="0" FilBBR="0" FilBy="0" Q="2.2" T="17"/>
+  <Fil F="997.00" G="-1.8" I="0" FilBBR="0" FilBy="0" Q="4.72" T="17"/>
+  <Fil F="1107.00" G="3.2" I="0" FilBBR="0" FilBy="0" Q="5.38" T="17"/>
+  <Fil F="1239.00" G="-5.6" I="0" FilBBR="0" FilBy="0" Q="0.82" T="17"/>
+  <Fil F="1399.00" G="-5" I="0" FilBBR="0" FilBy="0" Q="2.55" T="17"/>
+  <Fil F="1697.00" G="2.9" I="0" FilBBR="0" FilBy="0" Q="5.44" T="17"/>
+  <Fil F="1978.00" G="5.7" I="0" FilBBR="0" FilBy="0" Q="2.89" T="17"/>
+  <Fil F="2687.00" G="-9.6" I="0" FilBBR="0" FilBy="0" Q="2.23" T="17"/>
+  <Fil F="3987.00" G="-11.5" I="0" FilBBR="0" FilBy="0" Q="3.91" T="17"/>
+  <Fil F="5627.00" G="-4.8" I="0" FilBBR="0" FilBy="0" Q="3.04" T="17"/>
+  <Fil F="6469.00" G="5.5" I="0" FilBBR="0" FilBy="0" Q="7.24" T="17"/>
+  <Fil F="7622.00" G="-5.7" I="0" FilBBR="0" FilBy="0" Q="2.51" T="17"/>
+  <Fil F="10014.00" G="-4.5" I="0" FilBBR="0" FilBy="0" Q="2.32" T="17"/>
+  <Fil F="13025.00" G="-2.4" I="0" FilBBR="0" FilBy="0" Q="2.55" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="737.00" G="-9.300000000000001" I="0" FilBBR="0" FilBy="0" Q="3.77" T="17"/>
+  <Fil F="833.00" G="-1.2" I="0" FilBBR="0" FilBy="0" Q="6.95" T="17"/>
+  <Fil F="1055.00" G="-1.3" I="0" FilBBR="0" FilBy="0" Q="2.82" T="17"/>
+  <Fil F="1098.00" G="0.7" I="0" FilBBR="0" FilBy="0" Q="6.03" T="17"/>
+  <Fil F="2217.00" G="3" I="0" FilBBR="0" FilBy="0" Q="8.66" T="17"/>
+  <Fil F="2698.00" G="-1.1" I="0" FilBBR="0" FilBy="0" Q="5.02" T="17"/>
+  <Fil F="4787.00" G="3.5" I="0" FilBBR="0" FilBy="0" Q="5.93" T="17"/>
+  <Fil F="5527.00" G="-2.5" I="0" FilBBR="0" FilBy="0" Q="3.11" T="17"/>
+  <Fil F="6452.00" G="3.6" I="0" FilBBR="0" FilBy="0" Q="5.91" T="17"/>
+  <Fil F="8363.00" G="-3.4" I="0" FilBBR="0" FilBy="0" Q="2.02" T="17"/>
+  <Fil F="8665.00" G="4.9" I="0" FilBBR="0" FilBy="0" Q="9.07" T="17"/>
+  <Fil F="10681.00" G="-2" I="0" FilBBR="0" FilBy="0" Q="2.67" T="17"/>
+  <Fil F="10897.00" G="2.4" I="0" FilBBR="0" FilBy="0" Q="8.220000000000001" T="17"/>
+  <Fil F="13747.00" G="-1.7" I="0" FilBBR="0" FilBy="0" Q="2.68" T="17"/>
+  <Fil F="10000.00" G="2" I="0" FilBBR="0" FilBy="0" Q="1.5" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="1" Q="0.7" T="15"/>
+  <Fil F="3100.00" G="-24" I="0" FilBBR="0" FilBy="0" Q="0.7" T="16"/>
+  <Vol L="0.5956621435290105" T="15"/>
+  <T PM="2" P="0" T="192"/>
+ </OC>
+ <OC DG="0" HPi="31" CE="1" Finit="30" LPi="30" MT="1" GD="0" CINV="1" ON="18" EqBy="0" LG="4" CN="7">
+  <Fil F="21.00" G="-12.4" I="0" FilBBR="0" FilBy="0" Q="4.82" T="17"/>
+  <Fil F="24.00" G="-4.3" I="0" FilBBR="0" FilBy="0" Q="9.369999999999999" T="17"/>
+  <Fil F="29.00" G="-8.300000000000001" I="0" FilBBR="0" FilBy="0" Q="5.36" T="17"/>
+  <Fil F="33.00" G="2" I="0" FilBBR="0" FilBy="0" Q="7.5" T="17"/>
+  <Fil F="83.00" G="-4.6" I="0" FilBBR="0" FilBy="0" Q="9.880000000000001" T="17"/>
+  <Fil F="94.00" G="-9.9" I="0" FilBBR="0" FilBy="0" Q="1.71" T="17"/>
+  <Fil F="194.00" G="4.5" I="0" FilBBR="0" FilBy="0" Q="5.45" T="17"/>
+  <Fil F="293.00" G="6" I="0" FilBBR="0" FilBy="0" Q="6.58" T="17"/>
+  <Fil F="309.00" G="-9.5" I="0" FilBBR="0" FilBy="0" Q="1.06" T="17"/>
+  <Fil F="691.00" G="5.3" I="0" FilBBR="0" FilBy="0" Q="5.98" T="17"/>
+  <Fil F="43.00" G="-2.5" I="0" FilBBR="0" FilBy="0" Q="5.01" T="17"/>
+  <Fil F="55.00" G="4" I="0" FilBBR="0" FilBy="0" Q="1.8" T="17"/>
+  <Fil F="60.00" G="4.7" I="0" FilBBR="0" FilBy="0" Q="9.83" T="17"/>
+  <Fil F="97.00" G="-2" I="0" FilBBR="0" FilBy="0" Q="2.32" T="17"/>
+  <Fil F="138.00" G="10" I="0" FilBBR="0" FilBy="0" Q="9.73" T="17"/>
+  <Fil F="20.00" G="-5.7" I="0" FilBBR="0" FilBy="0" Q="7.2" T="17"/>
+  <Fil F="26.00" G="-7.2" I="0" FilBBR="0" FilBy="0" Q="2.41" T="17"/>
+  <Fil F="29.00" G="-1.4" I="0" FilBBR="0" FilBy="0" Q="13.38" T="17"/>
+  <Fil F="39.00" G="-3" I="0" FilBBR="0" FilBy="0" Q="4.37" T="17"/>
+  <Fil F="92.00" G="-3" I="0" FilBBR="0" FilBy="0" Q="3.67" T="17"/>
+  <Fil F="199.00" G="-1.3" I="0" FilBBR="0" FilBy="0" Q="18.29" T="17"/>
+  <Fil F="227.00" G="1.2" I="0" FilBBR="0" FilBy="0" Q="8.039999999999999" T="17"/>
+  <Fil F="303.00" G="-2.5" I="0" FilBBR="0" FilBy="0" Q="2.12" T="17"/>
+  <Fil F="583.00" G="-1.6" I="0" FilBBR="0" FilBy="0" Q="7.37" T="17"/>
+  <Fil F="664.00" G="-2.7" I="0" FilBBR="0" FilBy="0" Q="2.53" T="17"/>
+  <Fil F="724.00" G="-1.5" I="0" FilBBR="0" FilBy="0" Q="7.06" T="17"/>
+  <Fil F="758.00" G="1.8" I="0" FilBBR="0" FilBy="0" Q="7.81" T="17"/>
+  <Fil F="889.00" G="-5" I="0" FilBBR="0" FilBy="0" Q="4.91" T="17"/>
+  <Fil F="955.00" G="-7.7" I="0" FilBBR="0" FilBy="0" Q="2.07" T="17"/>
+  <Fil F="133.00" G="6" I="0" FilBBR="0" FilBy="0" Q="5.48" T="17"/>
+  <Fil F="230.00" G="-24" I="0" FilBBR="0" FilBy="0" Q="0.7" T="15"/>
+  <Fil F="70.00" G="-24" I="0" FilBBR="0" FilBy="0" Q="0.7" T="16"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="175"/>
+ </OC>
+ <OC DG="0" HPi="31" CE="1" Finit="30" LPi="30" MT="0" GD="0" CINV="0" ON="19" EqBy="0" LG="5" CN="13">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="1" Q="0.7" T="15"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="1" Q="0.7" T="16"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="3" HPi="31" CE="1" Finit="30" LPi="30" MT="1" GD="0" CINV="0" ON="20" EqBy="0" LG="6" CN="6">
+  <Fil F="131.00" G="-8.1" I="0" FilBBR="0" FilBy="0" Q="1.37" T="17"/>
+  <Fil F="160.00" G="4" I="0" FilBBR="0" FilBy="0" Q="5.62" T="17"/>
+  <Fil F="220.00" G="-5.7" I="0" FilBBR="0" FilBy="0" Q="2.38" T="17"/>
+  <Fil F="555.00" G="-6.7" I="0" FilBBR="0" FilBy="0" Q="4.23" T="17"/>
+  <Fil F="747.00" G="-3.6" I="0" FilBBR="0" FilBy="0" Q="2.62" T="17"/>
+  <Fil F="820.00" G="-6.2" I="0" FilBBR="0" FilBy="0" Q="1.59" T="17"/>
+  <Fil F="2508.00" G="-5.5" I="0" FilBBR="0" FilBy="0" Q="3.22" T="17"/>
+  <Fil F="2774.00" G="6" I="0" FilBBR="0" FilBy="0" Q="6.48" T="17"/>
+  <Fil F="3404.00" G="-6.75" I="0" FilBBR="0" FilBy="0" Q="1.63" T="17"/>
+  <Fil F="7139.00" G="-1.9" I="0" FilBBR="0" FilBy="0" Q="3.23" T="17"/>
+  <Fil F="132.00" G="-4.7" I="0" FilBBR="0" FilBy="0" Q="1.81" T="17"/>
+  <Fil F="157.00" G="1.8" I="0" FilBBR="0" FilBy="0" Q="6.24" T="17"/>
+  <Fil F="231.00" G="-3.4" I="0" FilBBR="0" FilBy="0" Q="1.84" T="17"/>
+  <Fil F="286.00" G="4.8" I="0" FilBBR="0" FilBy="0" Q="8.99" T="17"/>
+  <Fil F="660.00" G="-1.4" I="0" FilBBR="0" FilBy="0" Q="1.26" T="17"/>
+  <Fil F="882.00" G="-4.3" I="0" FilBBR="0" FilBy="0" Q="2.32" T="17"/>
+  <Fil F="1725.00" G="0" I="0" FilBBR="0" FilBy="0" Q="2.14" T="17"/>
+  <Fil F="2293.00" G="3" I="0" FilBBR="0" FilBy="0" Q="1.92" T="17"/>
+  <Fil F="3624.00" G="-3.9" I="0" FilBBR="0" FilBy="0" Q="2.78" T="17"/>
+  <Fil F="7628.00" G="-5.7" I="0" FilBBR="0" FilBy="0" Q="2.24" T="17"/>
+  <Fil F="628.00" G="2.5" I="0" FilBBR="0" FilBy="0" Q="8.210000000000001" T="17"/>
+  <Fil F="855.00" G="1.9" I="0" FilBBR="0" FilBy="0" Q="8.369999999999999" T="17"/>
+  <Fil F="965.00" G="-1.2" I="0" FilBBR="0" FilBy="0" Q="6.7" T="17"/>
+  <Fil F="1084.00" G="6" I="0" FilBBR="0" FilBy="0" Q="9.56" T="17"/>
+  <Fil F="1181.00" G="-2.1" I="0" FilBBR="0" FilBy="0" Q="5.32" T="17"/>
+  <Fil F="1499.00" G="2.7" I="0" FilBBR="0" FilBy="0" Q="6.4" T="17"/>
+  <Fil F="400.00" G="6" I="0" FilBBR="0" FilBy="0" Q="7.37" T="17"/>
+  <Fil F="2894.00" G="2.1" I="0" FilBBR="0" FilBy="0" Q="2.71" T="17"/>
+  <Fil F="4630.00" G="1.9" I="0" FilBBR="0" FilBy="0" Q="2.13" T="17"/>
+  <Fil F="5000.00" G="4" I="0" FilBBR="0" FilBy="0" Q="2" T="17"/>
+  <Fil F="3301.00" G="-24" I="0" FilBBR="0" FilBy="0" Q="0.7" T="15"/>
+  <Fil F="200.00" G="-12" I="0" FilBBR="0" FilBy="0" Q="0.7" T="16"/>
+  <Vol L="1" T="15"/>
+  <T PM="2" P="0" T="0"/>
+ </OC>
+ <OC DG="3" HPi="31" CE="1" Finit="30" LPi="30" MT="1" GD="0" CINV="1" ON="21" EqBy="0" LG="7" CN="4">
+  <Fil F="1493.00" G="-4.3" I="0" FilBBR="0" FilBy="0" Q="6.414" T="17"/>
+  <Fil F="1631.00" G="-3.2" I="0" FilBBR="0" FilBy="0" Q="6.197" T="17"/>
+  <Fil F="1635.00" G="-3.2" I="0" FilBBR="0" FilBy="0" Q="6.212" T="17"/>
+  <Fil F="1670.00" G="6" I="0" FilBBR="0" FilBy="0" Q="1" T="17"/>
+  <Fil F="1924.00" G="-4.4" I="0" FilBBR="0" FilBy="0" Q="5.933" T="17"/>
+  <Fil F="2250.00" G="3.2" I="0" FilBBR="0" FilBy="0" Q="7.418" T="17"/>
+  <Fil F="2574.00" G="-7.7" I="0" FilBBR="0" FilBy="0" Q="5.348" T="17"/>
+  <Fil F="2902.00" G="4.2" I="0" FilBBR="0" FilBy="0" Q="7.499" T="17"/>
+  <Fil F="3466.00" G="-16.2" I="0" FilBBR="0" FilBy="0" Q="2.975" T="17"/>
+  <Fil F="3838.00" G="6" I="0" FilBBR="0" FilBy="0" Q="1" T="17"/>
+  <Fil F="4802.00" G="-9.4" I="0" FilBBR="0" FilBy="0" Q="4.282" T="17"/>
+  <Fil F="6274.00" G="-2.1" I="0" FilBBR="0" FilBy="0" Q="3.712" T="17"/>
+  <Fil F="6630.00" G="5.5" I="0" FilBBR="0" FilBy="0" Q="3.282" T="17"/>
+  <Fil F="7778.00" G="-5.7" I="0" FilBBR="0" FilBy="0" Q="1.656" T="17"/>
+  <Fil F="12318.00" G="3.4" I="0" FilBBR="0" FilBy="0" Q="6.753" T="17"/>
+  <Fil F="1128.00" G="-2.2" I="0" FilBBR="0" FilBy="0" Q="6.897" T="17"/>
+  <Fil F="1237.00" G="5.5" I="0" FilBBR="0" FilBy="0" Q="6.377" T="17"/>
+  <Fil F="1386.00" G="-4.2" I="0" FilBBR="0" FilBy="0" Q="6.528" T="17"/>
+  <Fil F="1849.00" G="4.1" I="0" FilBBR="0" FilBy="0" Q="2.697" T="17"/>
+  <Fil F="2072.00" G="-3.7" I="0" FilBBR="0" FilBy="0" Q="5.391" T="17"/>
+  <Fil F="3032.00" G="4.7" I="0" FilBBR="0" FilBy="0" Q="7.42" T="17"/>
+  <Fil F="3127.00" G="-4.2" I="0" FilBBR="0" FilBy="0" Q="2.747" T="17"/>
+  <Fil F="4312.00" G="3" I="0" FilBBR="0" FilBy="0" Q="7.201" T="17"/>
+  <Fil F="4764.00" G="-4" I="0" FilBBR="0" FilBy="0" Q="4.348" T="17"/>
+  <Fil F="5108.00" G="6" I="0" FilBBR="0" FilBy="0" Q="1.612" T="17"/>
+  <Fil F="5919.00" G="-3.3" I="0" FilBBR="0" FilBy="0" Q="3.912" T="17"/>
+  <Fil F="7732.00" G="-1.6" I="0" FilBBR="0" FilBy="0" Q="3.258" T="17"/>
+  <Fil F="14322.00" G="-1.2" I="0" FilBBR="0" FilBy="0" Q="2.996" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="1" Q="0.7" T="15"/>
+  <Fil F="2500.00" G="-24" I="0" FilBBR="0" FilBy="0" Q="0.7" T="16"/>
+  <Vol L="0.3162277660168378" T="15"/>
+  <T PM="2" P="0" T="52"/>
+ </OC>
+ <OC DG="0" HPi="31" CE="1" Finit="30" LPi="30" MT="1" GD="0" CINV="0" ON="22" EqBy="0" LG="8" CN="8">
+  <Fil F="20.00" G="-12.25" I="0" FilBBR="0" FilBy="0" Q="1.95" T="17"/>
+  <Fil F="26.00" G="-13.2" I="0" FilBBR="0" FilBy="0" Q="2.89" T="17"/>
+  <Fil F="28.00" G="-4.4" I="0" FilBBR="0" FilBy="0" Q="8.640000000000001" T="17"/>
+  <Fil F="30.00" G="-3.8" I="0" FilBBR="0" FilBy="0" Q="6.94" T="17"/>
+  <Fil F="38.00" G="-2.2" I="0" FilBBR="0" FilBy="0" Q="13.13" T="17"/>
+  <Fil F="55.00" G="6" I="0" FilBBR="0" FilBy="0" Q="5.72" T="17"/>
+  <Fil F="62.00" G="-9" I="0" FilBBR="0" FilBy="0" Q="3.96" T="17"/>
+  <Fil F="82.00" G="-10.9" I="0" FilBBR="0" FilBy="0" Q="1.72" T="17"/>
+  <Fil F="106.00" G="6" I="0" FilBBR="0" FilBy="0" Q="2.83" T="17"/>
+  <Fil F="128.00" G="-3.6" I="0" FilBBR="0" FilBy="0" Q="7.25" T="17"/>
+  <Fil F="146.00" G="-5" I="0" FilBBR="0" FilBy="0" Q="2.48" T="17"/>
+  <Fil F="493.00" G="-6.7" I="0" FilBBR="0" FilBy="0" Q="4.13" T="17"/>
+  <Fil F="589.00" G="-6.6" I="0" FilBBR="0" FilBy="0" Q="5.52" T="17"/>
+  <Fil F="690.00" G="-6.7" I="0" FilBBR="0" FilBy="0" Q="3.62" T="17"/>
+  <Fil F="977.00" G="-12.5" I="0" FilBBR="0" FilBy="0" Q="1.17" T="17"/>
+  <Fil F="85.00" G="-2.2" I="0" FilBBR="0" FilBy="0" Q="5.32" T="17"/>
+  <Fil F="104.00" G="1.3" I="0" FilBBR="0" FilBy="0" Q="4.89" T="17"/>
+  <Fil F="151.00" G="-2.2" I="0" FilBBR="0" FilBy="0" Q="2.97" T="17"/>
+  <Fil F="35.00" G="0" I="0" FilBBR="0" FilBy="0" Q="7.95" T="17"/>
+  <Fil F="39.00" G="0" I="0" FilBBR="0" FilBy="0" Q="8.800000000000001" T="17"/>
+  <Fil F="68.00" G="0" I="0" FilBBR="0" FilBy="0" Q="8.460000000000001" T="17"/>
+  <Fil F="85.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.05" T="17"/>
+  <Fil F="101.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.72" T="17"/>
+  <Fil F="151.00" G="0" I="0" FilBBR="0" FilBy="0" Q="2.9" T="17"/>
+  <Fil F="340.00" G="0" I="0" FilBBR="0" FilBy="0" Q="8.02" T="17"/>
+  <Fil F="665.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.06" T="17"/>
+  <Fil F="1006.00" G="0" I="0" FilBBR="0" FilBy="0" Q="2.66" T="17"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="300.00" G="-24" I="0" FilBBR="0" FilBy="0" Q="0.7" T="15"/>
+  <Fil F="70.00" G="-24" I="0" FilBBR="0" FilBy="0" Q="0.7" T="16"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="0" HPi="31" CE="1" Finit="30" LPi="30" MT="0" GD="0" CINV="0" ON="23" EqBy="0" LG="9" CN="14">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="32.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="50.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="1" Q="0.7" T="15"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="1" Q="0.7" T="16"/>
+  <Vol L="1" T="15"/>
+  <T PM="1" P="0" T="0"/>
+ </OC>
+ <OC DG="5" HPi="31" CE="1" Finit="30" LPi="30" MT="1" GD="0" CINV="0" ON="24" EqBy="0" LG="11" CN="25">
+  <Fil F="37.00" G="3.7" I="0" FilBBR="0" FilBy="0" Q="8.08" T="17"/>
+  <Fil F="39.00" G="-6.2" I="0" FilBBR="0" FilBy="0" Q="1.78" T="17"/>
+  <Fil F="58.00" G="2.2" I="0" FilBBR="0" FilBy="0" Q="8.33" T="17"/>
+  <Fil F="60.00" G="-7.7" I="0" FilBBR="0" FilBy="0" Q="1.28" T="17"/>
+  <Fil F="89.00" G="-3" I="0" FilBBR="0" FilBy="0" Q="1.68" T="17"/>
+  <Fil F="24.00" G="5" I="0" FilBBR="0" FilBy="0" Q="2.3" T="17"/>
+  <Fil F="29.00" G="-4" I="0" FilBBR="0" FilBy="0" Q="5.69" T="17"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="-24" I="0" FilBBR="0" FilBy="0" Q="0.7" T="9"/>
+  <Fil F="20.00" G="0" I="0" FilBBR="0" FilBy="1" Q="0.7" T="16"/>
+  <Vol L="1" T="15"/>
+  <T PM="2" P="0" T="0"/>
+ </OC>
+ <OC DG="5" HPi="31" CE="1" Finit="30" LPi="30" MT="1" GD="0" CINV="0" ON="25" EqBy="0" LG="11" CN="26">
+  <Fil F="37.00" G="3.7" I="0" FilBBR="0" FilBy="0" Q="8.08" T="17"/>
+  <Fil F="39.00" G="-6.2" I="0" FilBBR="0" FilBy="0" Q="1.78" T="17"/>
+  <Fil F="58.00" G="2.2" I="0" FilBBR="0" FilBy="0" Q="8.33" T="17"/>
+  <Fil F="60.00" G="-7.7" I="0" FilBBR="0" FilBy="0" Q="1.28" T="17"/>
+  <Fil F="89.00" G="-3" I="0" FilBBR="0" FilBy="0" Q="1.68" T="17"/>
+  <Fil F="24.00" G="5" I="0" FilBBR="0" FilBy="0" Q="2.3" T="17"/>
+  <Fil F="29.00" G="-4" I="0" FilBBR="0" FilBy="0" Q="5.69" T="17"/>
+  <Fil F="125.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="315.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="800.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="3200.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="5000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="8000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="12500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="20000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="1"/>
+  <Fil F="80.00" G="-24" I="0" FilBBR="0" FilBy="0" Q="0.7" T="9"/>
+  <Fil F="20.00" G="0" I="0" FilBBR="0" FilBy="1" Q="0.7" T="16"/>
+  <Vol L="1" T="15"/>
+  <T PM="2" P="0" T="0"/>
+ </OC>
+ <IC HPi="16" Finit="15" LPi="15" MT="0" IN="0" EqBy="0" CN="1">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <T T="0"/>
+ </IC>
+ <IC HPi="16" Finit="15" LPi="15" MT="0" IN="1" EqBy="0" CN="2">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <T T="0"/>
+ </IC>
+ <IC HPi="16" Finit="15" LPi="15" MT="0" IN="2" EqBy="0" CN="14">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <T T="0"/>
+ </IC>
+ <IC HPi="16" Finit="15" LPi="15" MT="0" IN="3" EqBy="0" CN="15">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <T T="0"/>
+ </IC>
+ <IC HPi="16" Finit="15" LPi="15" MT="0" IN="4" EqBy="0" CN="10">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <T T="0"/>
+ </IC>
+ <IC HPi="16" Finit="15" LPi="15" MT="0" IN="5" EqBy="0" CN="22">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <T T="0"/>
+ </IC>
+ <IC HPi="16" Finit="15" LPi="15" MT="0" IN="6" EqBy="0" CN="26">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <T T="0"/>
+ </IC>
+ <IC HPi="16" Finit="15" LPi="15" MT="0" IN="7" EqBy="0" CN="27">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <T T="0"/>
+ </IC>
+ <IC HPi="1" Finit="0" LPi="0" MT="0" IN="8" EqBy="0" CN="38"/>
+ <IC HPi="1" Finit="0" LPi="0" MT="0" IN="9" EqBy="0" CN="39"/>
+ <IC HPi="16" Finit="15" LPi="15" MT="0" IN="10" EqBy="0" CN="54">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <T T="0"/>
+ </IC>
+ <IC HPi="16" Finit="15" LPi="15" MT="0" IN="11" EqBy="0" CN="55">
+  <Fil F="25.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="40.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="63.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="100.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="160.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="250.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="400.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="630.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="1600.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="2500.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="4000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="6300.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="10000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <Fil F="16000.00" G="0" I="0" FilBBR="0" FilBy="0" Q="4.3" T="17"/>
+  <T T="0"/>
+ </IC>
+ <Route>
+  <R G150="0" G151="0" G152="0" G153="0" G154="0" G155="0" G156="0" G157="1" G158="0" G159="0" OFFS="1" G50="1" G51="0" G52="0" G53="0" G54="0" G55="0" G56="0" G57="0" G58="0" G59="0" G160="0" G161="0" G162="0" G163="0" G164="0" G165="0" G166="0" G167="0" G60="0" G61="0" G62="1" G63="0" G64="0" G65="0" G66="0" G67="0" G68="0" G69="0" G70="0" G71="0" G72="0" G73="0" G74="1" G75="0" G76="0" G77="0" G78="0" G79="0" G100="0" G101="0" G102="0" G103="0" G104="0" G105="0" G106="0" G107="0" G80="0" G108="0" G81="0" G109="0" G82="0" G83="0" G84="0" G85="0" G86="1" G87="0" G88="0" G89="0" G110="1" G111="0" G112="0" G113="0" G114="0" G115="0" G116="0" G117="0" G90="0" G118="0" G91="0" G119="0" G92="0" G93="0" G94="0" G95="0" G96="0" G97="0" G98="1" G99="0" G10="0" G11="0" G12="0" G13="0" G14="1" G15="0" G16="0" G17="0" G18="0" G19="0" G120="0" G121="0" G122="1" G123="0" G124="0" G125="0" G126="0" G127="0" G128="0" G129="0" INS="12" G20="0" G21="0" G22="0" G23="0" G24="0" G25="0" G26="1" G27="0" G28="0" G29="0" G0="0" G1="0" G2="1" G3="0" G130="0" G4="0" G131="0" G5="0" G132="0" G6="0" G133="0" G7="0" G134="1" G8="0" G135="0" G9="0" G136="0" G137="0" G138="0" G139="0" G30="0" G31="0" G32="0" G33="0" OUTS="14" G34="0" G35="0" G36="0" G37="0" G38="1" G39="0" AOM="1" G140="0" G141="0" G142="0" G143="0" G144="1" G145="0" G146="0" G147="0" G148="0" G149="0" G40="0" G41="0" G42="0" G43="0" G44="0" G45="0" G46="0" G47="0" G48="0" G49="0"/>
+  <R G8="0.5" G9="0.5" OUTS="12" G20="0.5" G21="0.5" G22="0.5" G23="0.5" G10="0.5" G11="0.5" G12="1" AOM="5" G13="0" G14="0" G15="1" G16="1" INS="2" G17="0" G18="0" G19="1" G0="1" OFFS="1" G1="0" G2="0" G3="1" G4="1" G5="0" G6="0" G7="1"/>
+  <R G8="0" G9="0" OUTS="12" G20="0.5" G21="0.5" G22="0.5" G23="0.5" G10="0" G11="0" G12="0" AOM="9" G13="0" G14="0" G15="0" G16="0" INS="2" G17="0" G18="0" G19="0" G0="1" OFFS="1" G1="0" G2="0" G3="1" G4="1" G5="0" G6="0" G7="1"/>
+  <R G8="0" G9="0" OUTS="2" G20="0" G21="0" G22="0" G23="0" G24="0" G25="0" G10="0" G26="0" G11="0" G27="1" G12="1" AOM="25" G13="0" G14="0" G15="0" G16="0" INS="14" G17="0" G18="0" G19="0" G0="0" OFFS="1" G1="0" G2="0" G3="0" G4="0" G5="0" G6="0" G7="0"/>
+  <R OFFS="1" G50="0" G51="0" G52="0" G53="0" G54="0" G55="0" G56="0" G57="0" G58="0" G59="0" G60="0" G61="0" G62="1" G63="0" G64="0" G65="0" G66="0" G67="0" G68="0" G69="0" G70="0" G71="0" G72="0" G73="1" G74="0" G75="0" G76="0" G77="0" G78="0" G79="0" G100="0" G101="0" G102="0" G103="0" G104="0" G105="0" G106="0" G107="0" G80="0" G108="0" G81="0" G109="0" G82="0" G83="0" G84="0" G85="1" G86="0" G87="0" G88="0" G89="0" G110="0" G111="1" G112="0" G113="0" G114="0" G115="0" G116="0" G117="0" G90="0" G118="0" G91="0" G119="0" G92="0" G93="0" G94="0" G95="0" G96="0" G97="1" G98="0" G99="0" G10="0" G11="0" G12="0" G13="0" G14="0" G15="0" G16="0" G17="0" G18="0" G19="0" G120="0" G121="0" G122="0" G123="0" G124="0" G125="0" G126="0" G127="0" G128="0" G129="0" INS="12" G20="0" G21="0" G22="0" G23="0" G24="1" G25="0" G26="0" G27="0" G28="0" G29="0" G0="1" G1="0" G2="0" G3="0" G130="0.5" G4="0" G131="0.5" G5="0" G132="0" G6="0" G133="0" G7="0" G134="0" G8="0" G135="0" G9="0" G136="0" G137="0" G138="0" G139="0" G30="0" G31="0" G32="0" G33="0" OUTS="12" G34="0" G35="0" G36="1" G37="0" G38="0" G39="0" AOM="31" G140="0" G141="0" G142="0.5" G143="0.5" G40="0" G41="0" G42="0" G43="0" G44="0" G45="0" G46="0" G47="0" G48="1" G49="0"/>
+ </Route>
+ <DCM>
+  <DC i="0" v="288000"/>
+  <DC i="1" v="288000"/>
+  <DC i="2" v="5760000"/>
+  <DC i="46" v="288000"/>
+  <DC i="400" v="1"/>
+  <DC i="401" v="1"/>
+  <DC i="402" v="1"/>
+  <DC i="404" v="1"/>
+  <DC i="405" v="1"/>
+  <DC i="406" v="1"/>
+  <DC i="407" v="1"/>
+  <DC i="408" v="1"/>
+  <SW i="0" Typ="1" A="1"/>
+  <SW i="1" Typ="4" A="1"/>
+  <SW i="209" Typ="1" A="1"/>
+  <SW i="210" Typ="1" A="1"/>
+  <SW i="211" Typ="1" A="1"/>
+  <V i="0" L="0.001" T="21"/>
+  <V i="1" L="0.001" T="21"/>
+  <V i="46" L="0.001" T="21"/>
+ </DCM>
+ <ABP SWIN1="0" AM="0" HT="-5" SWBP="1" RT="1.2" BF1="0.002617993877991494" SWS="1" LT="-25" BF2="0.002617993877991494" LF="250" SWOUT1="0" SWOUT2="0" B="0"/>
+ <STX CMOD="0"/>
+ <MCV2 DLC_GSTOP0="0" DLC_GSTOP1="0" DLC_CVOL="255" DLC_GSTART0="0" DLC_GSTART1="0" PM="214" IPRIO0="0" IPRIO1="1" ADEP="65535" IPRIO2="2" IPRIO3="0" IPRIO4="0" DLC_FSTOP0="100" DLC_FSTOP1="5000" RTC_GSTOP0="0" DIN="1" RTC_GSTOP1="0" RTC_EN="0" TONT="0" IMODE="0" URCLTI1="0" DLC_VSTOP0="0" URCLTI2="0" DLC_VSTOP1="0" RTC_GSTART0="0" RTC_GSTART1="0" URCC1="255" URCC2="255" RTC_FSTOP0="100" DLC_FSTART0="100" DLC_EN="0" RTC_FSTOP1="5000" DLC_FSTART1="5000" TOFFT="0" DLC_VSTART0="-600" RTC_CVOL="255" DLC_VSTART1="-600" IMASK="1" ANS="1" IDEPSETUP0="0" IDEPSETUP1="0" IDEPSETUP2="0" IDEPSETUP3="0" RTC_VSTOP0="0" IDEPSETUP4="0" RTC_VSTOP1="0" URCM="0" RTC_FSTART0="100" RTC_FSTART1="5000" URCS1="0" URCS2="1" RTC_VSTART0="-600" ROS="0" URCS="3" RTC_VSTART1="-600"/>
+ <UN>
+  <UN UNENA="" UNENU="0"/>
+ </UN>
+ <ATFCOND D="130820261552" Dev="22" CV="7" AV="26" PCTV="6.03.04" ACV="11">
+  <GLB IE="1" LO="0" MB="178" MD="4" SE="1" TCEN="0" TCAC="0" MTO="5000" STO="3000" BTO="8000" DB="89" PE="0"/>
+  <VOL G="255" SEL="0" VN="0" BV="-150" R="255" RNG="600" STP="60" B="255"/>
+  <VOL G="0" SEL="255" VN="1" BV="-600" R="0" RNG="120" STP="24" B="0"/>
+  <VOL G="0" SEL="255" VN="2" BV="-600" R="0" RNG="600" STP="60" B="0"/>
+  <VOL G="0" SEL="255" VN="3" BV="-600" R="0" RNG="600" STP="60" B="0"/>
+  <TC TCN="0" TCF="150"/>
+  <TC TCN="1" TCF="5000"/>
+ </ATFCOND>
+</ATF>
